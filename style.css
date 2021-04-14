@@ -1,0 +1,131 @@
+.navbar {
+  overflow: hidden;
+  background-color: rgb(46, 134, 80);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 28px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+}
+.sticky {
+  overflow: visible;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 100px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 28px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-family: cursive;
+}
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: rgb(72, 161, 79);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(102, 182, 132);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border: none;
+  font-family: cursive;
+}
+.dropdown-content a:hover {
+  background-color: rgb(133, 202, 150);
+}
+.show {
+  display: block;
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+}
+h3 {
+  font-family: cursive;
+  font-size: 20px;
+  margin: 5px;
+}
+body {
+  background-image: url('images/nebe.jpg');
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  background-size: 100% 204px;
+}
+li {
+  font-family: cursive;
+  font-size: 20px;
+}
+#sub {
+  font-family: cursive;
+  font-size: 15px;
+}
+#border {
+  border: solid;
+  border-radius: 40px;
+}
+.row {
+  display: flex;
+}
+.column {
+  padding: 5px;
+}
+#sn {
+  float: left;
+}
+#source {
+  border: solid;
+  border-radius: 20px;
+  font-size: 30px;
+  font-family: cursive;
+}
+#round, #round1, #round2, #round3, #round4 {
+  border-radius: 20px;
+}
+#headerCalc {
+  text-align: center;
+  font-size: 24px;
+  font-family: cursive;
+}
+#center {
+  text-align: center;
+}
+#map1, #map2, #map3, #map4, #map5, #map6, #map7, #map8, #map9 {
+  border: solid;
+  border-color: rgb(46, 134, 80);
+  border-width: 5px;
+}
